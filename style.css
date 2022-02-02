@@ -1,0 +1,79 @@
+@media screen and (max-width:800px) {
+    .track-Poster-Div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .track-Poster{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .main-Poster{
+        width: 100px;
+    }
+}
+
+
+body{
+    background-color: black;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-Heading{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.tracks{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main-Poster{
+    width: 500px;
+
+}
+
+.track-Poster{
+    width: 350px;
+    margin-right: 00px;
+}
+
+.main-Poster-Div{
+    display: flex;
+    justify-content: center;
+}
+
+.track-Poster-Div{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.register-Link-Div{
+    display: flex;
+    justify-content: center;
+}
+
+.register-Link{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.register-Link:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
